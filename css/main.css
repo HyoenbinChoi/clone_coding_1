@@ -403,7 +403,7 @@ div[class^=topRightBottomInner]>img {
 }
 
 .headerTitle {
-  width: 100%;
+  width: 80%;
   font-size: 1.2rem;
   font-weight: 800;
   color: #454545;
@@ -411,10 +411,14 @@ div[class^=topRightBottomInner]>img {
 }
 
 .headerMore {
-  width: 100%;
+  width: 20%;
   text-align: right;
   color: #222222;
   padding: 1em;
+}
+
+.headerMore > h5 {
+  cursor: pointer;
 }
 
 .mainBottomLeftArticlesWrapper {
